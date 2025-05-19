@@ -1,0 +1,28 @@
+{
+  "name": "speech-translation",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node 010.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.3.3",
+    "chalk": "^5.4.1",
+    "express": "^4.21.2",
+    "mic": "^2.1.2",
+    "pkg-json": "^2.0.9",
+    "wavefile": "^11.0.0"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "onnxruntime-node",
+      "protobufjs",
+      "sharp"
+    ],
+    "onlyBuiltDependencies": [
+      "onnxruntime-node",
+      "protobufjs",
+      "sharp"
+    ]
+  }
+}
